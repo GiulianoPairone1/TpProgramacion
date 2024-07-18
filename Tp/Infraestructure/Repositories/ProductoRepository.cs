@@ -1,18 +1,13 @@
-﻿using Application.IRepositories;
-using Domain.DTOs;
+﻿using Domain.DTOs;
 using Domain.Entities;
+using Domain.IRepositories;
 using Domain.ViewModels;
 using Infraestructure.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Infraestructure.Repositories
-{
-    public class ProductoRepository:IProductoRepository
+{ 
+    public class ProductoRepository:IProductRepository
     {
         private readonly StockDbContext _context;
         public ProductoRepository(StockDbContext context)

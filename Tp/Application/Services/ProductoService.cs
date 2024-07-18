@@ -1,19 +1,14 @@
-﻿using Application.IRepositories;
+﻿using Domain.IRepositories;
 using Application.IServices;
 using Domain.DTOs;
 using Domain.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Services
-{
+{  
     public class ProductoService:IProductoService
     {
-        private readonly IProductoRepository _repository;
-        public ProductoService(IProductoRepository repository)
+        private readonly IProductRepository _repository;
+        public ProductoService(IProductRepository repository)
         {
             _repository = repository;
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\giuliano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\giuliano\\AppData\\Roaming\\NuGet\\NuGet.Config",

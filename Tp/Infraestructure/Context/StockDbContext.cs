@@ -13,5 +13,7 @@ namespace Infraestructure.Context
         public StockDbContext(DbContextOptions<StockDbContext>options):base(options) { }
 
         public DbSet<Producto>Productos { get; set; }
+        public DbSet<User> Users { get; set; }
+
     }
 }

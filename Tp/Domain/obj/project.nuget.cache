@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1JNy2FFKPRwAo29WNVMHfPE2DL1fge3Orh/vw1vMGXjjMwAJxFgPfICEkj1TnZU+NKpsuYdXllHWZU6WIv6byg==",
+  "dgSpecHash": "cwQ3O5Yzc4X/y7ybN7Aq0yWCIP170cAv+u386yJr4QiK9P6qdU4A7zKPKioLQcdJCJKxU4qphLeKh8+mQ1jvjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

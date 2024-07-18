@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Application\\Application.csproj": {}
+    "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Application\\Application.csproj": {
+    "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\giuliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Application\\obj\\",
+        "outputPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\giuliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj"
+              "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -48,6 +48,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj": {
+    "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\giuliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\C#\\TpProgramacion\\Tp\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\giuliano\\AppData\\Roaming\\NuGet\\NuGet.Config",

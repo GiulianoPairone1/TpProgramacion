@@ -1,14 +1,9 @@
 ﻿using Domain.DTOs;
 using Domain.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Application.IRepositories
+namespace Domain.IRepositories
 {
-    public interface IProductoRepository
+    public interface IProductRepository
     {
         IEnumerable<ProductoDTO> GetList();
         ProductoDTO GetById(Guid id);
@@ -16,6 +11,5 @@ namespace Application.IRepositories
         bool Update(ProductoViewModel producto);
         bool Desactive(Guid id);
         bool Active(Guid id);
-
     }
 }
