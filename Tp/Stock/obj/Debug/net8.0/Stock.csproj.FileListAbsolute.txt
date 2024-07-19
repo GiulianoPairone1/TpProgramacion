@@ -399,3 +399,12 @@ C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\obj\Debug\net8.0\r
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\obj\Debug\net8.0\Stock.pdb
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\obj\Debug\net8.0\Stock.genruntimeconfig.cache
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\obj\Debug\net8.0\ref\Stock.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Stock\bin\Debug\net8.0\System.Text.Json.dll

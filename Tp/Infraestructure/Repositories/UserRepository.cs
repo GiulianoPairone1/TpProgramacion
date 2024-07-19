@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Infraestructure.Repositories
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly StockDbContext _context;
 
@@ -19,39 +19,18 @@ namespace Infraestructure.Repositories
         {
             _context = context;
         }
-
-        public IEnumerable<UserDTO> GetList()
+        public List<User> GetAll()
         {
-            return _context.Users
-                .Where(u => u.Activo)
-                .Select(u => new UserDTO
-                {
-                    Id = u.Id,
-                    Nombre = u.Nombre,
-                    Email= u.Email,
-                    UserType= u.UserType,
-                }).ToList();
+            return _context.Users.ToList();
         }
 
-        public bool Add(UserDTO user)
-        {
-            user.Id = Guid.NewGuid();
-            var usu = _context.Users.FirstOrDefault(u => u.Id == user.Id);
-            if (usu != null)
-            {
-                return false;
-            }
+        public int Add(User user)
 
-            _context.Users.Add(new User
-            {
-                Id = user.Id,
-                Nombre= user.Nombre,
-                Email= user.Email,
-                Contraseña=user.Contraseña,
-                UserType= user.UserType,
-            });
+        {
+            _context.Users.Add(user);
             _context.SaveChanges();
-            return true;
+            return user.Id;
+
         }
 
         public bool Update(UserDTO user)
@@ -70,16 +49,5 @@ namespace Infraestructure.Repositories
             return true;
         }
 
-        public bool Delete (Guid id)
-        {
-            var us = _context.Users.FirstOrDefault(y => y.Id == id);
-            if (us == null)
-            {
-                return false;
-            }
-            us.Activo = false;
-            _context.SaveChanges();
-            return true;
-        }
     }
 }

@@ -21,6 +21,15 @@ namespace Stock.Controllers
         }
 
         [HttpPost]
+        public IActionResult Add([FromBody] User user)
+        {
+            return Ok(_userService.Add(user));
+        }
 
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            return Ok(_userService.GetAll());
+        }
     }
 }

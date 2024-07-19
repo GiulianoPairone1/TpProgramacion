@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9FB2DE2-E4D8-4DF6-936F-AEE53208BD48}|Application\\Application.csproj|c:\\users\\giuliano\\desktop\\utnpractica\\tpprogramacion\\tp\\application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9FB2DE2-E4D8-4DF6-936F-AEE53208BD48}|Application\\Application.csproj|solutionrelative:application\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49E0F3FC-BB66-40EC-911C-A86ED5407062}|Infraestructure\\Infraestructure.csproj|c:\\users\\giuliano\\desktop\\utnpractica\\tpprogramacion\\tp\\infraestructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E0F3FC-BB66-40EC-911C-A86ED5407062}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D1D0A1-DFBE-4248-9132-5F6C4DCAB35E}|Domain\\Domain.csproj|c:\\users\\giuliano\\desktop\\utnpractica\\tpprogramacion\\tp\\domain\\irepositories\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D1D0A1-DFBE-4248-9132-5F6C4DCAB35E}|Domain\\Domain.csproj|solutionrelative:domain\\irepositories\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Application\\IServices\\IUserService.cs",
-              "RelativeDocumentMoniker": "Application\\IServices\\IUserService.cs",
-              "ToolTip": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Application\\IServices\\IUserService.cs",
-              "RelativeToolTip": "Application\\IServices\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "DocumentIndex": 1,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\IRepositories\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Domain\\IRepositories\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Domain\\IRepositories\\IRepositoryBase.cs",
+              "RelativeToolTip": "Domain\\IRepositories\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:37:52.193Z",
+              "WhenOpened": "2024-07-19T04:53:37.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Infraestructure\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Infraestructure\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T04:49:16.948Z",
               "EditorCaption": ""
             }
           ]

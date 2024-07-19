@@ -51,3 +51,5 @@ C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Infraestructure\obj\Debu
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Infraestructure\bin\Debug\net8.0\Infraestructure.runtimeconfig.json
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Infraestructure\obj\Debug\net8.0\Infraestructure.genruntimeconfig.cache

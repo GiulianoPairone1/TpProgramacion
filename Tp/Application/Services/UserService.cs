@@ -1,5 +1,6 @@
 ﻿using Application.IServices;
 using Domain.DTOs;
+using Domain.Entities;
 using Domain.IRepositories;
 using Domain.ViewModels;
 using System;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    internal class UserService : IUserService
+    public class UserService : IUserService
     {
         private readonly IUserRepository _repository;
 
@@ -20,12 +21,12 @@ namespace Application.Services
             _repository = repository;
         }
 
-        public IEnumerable<UserDTO> GetList()
+        public List<User> GetAll()
         {
-            return _repository.GetList();
+            return _repository.GetAll();
         }
 
-        public bool Add(UserDTO user)
+        public int Add(User user)
         {
             return _repository.Add(user);
         }
@@ -35,9 +36,5 @@ namespace Application.Services
             return _repository.Update(user);
         }
 
-        public bool Delete(Guid id)
-        {
-            return _repository.Delete(id);
-        }
     }
 }

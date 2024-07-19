@@ -1,4 +1,5 @@
 ﻿using Domain.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,8 @@ namespace Application.IServices
 {
     public interface IUserService
     {
-        IEnumerable<UserDTO> GetList();
-        bool Add(UserDTO user);
+        List<User> GetAll();
+        public int Add (User user);
         bool Update(UserDTO user);
-        bool Delete(Guid id);
     }
 }

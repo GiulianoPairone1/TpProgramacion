@@ -15,6 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //  
 
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProductoService, ProductoService>();
 builder.Services.AddScoped<IProductRepository, ProductoRepository>();
 builder.Services.AddDbContext<StockDbContext>(x => x.UseSqlite(builder.Configuration.GetConnectionString("StockDbContextConnection")));

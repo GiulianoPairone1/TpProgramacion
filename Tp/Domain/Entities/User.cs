@@ -10,7 +10,7 @@ namespace Domain.Entities
     public class User
     {
         [Key]
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string Nombre { get; set; }
@@ -20,6 +20,11 @@ namespace Domain.Entities
         public string Contraseña { get; set; }
         public string UserType { get; set; }
         public bool Activo { get; set; }
+
+        public User()
+        {
+
+        }
 
     }
 }

@@ -45,3 +45,5 @@ C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Application\obj\Debug\ne
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Application\bin\Debug\net8.0\Application.runtimeconfig.json
+C:\Users\giuliano\Desktop\UtnPractica\TpProgramacion\Tp\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
