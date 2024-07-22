@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B276706-7584-41CD-B4C7-FA2D79C895AB}|Stock\\Stock.csproj|c:\\users\\giuliano\\desktop\\utnpractica\\tpprogramacion\\tp\\stock\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B276706-7584-41CD-B4C7-FA2D79C895AB}|Stock\\Stock.csproj|solutionrelative:stock\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Infraestructure\\Migrations\\20240722002721_Gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infraestructure\\Migrations\\20240722002721_Gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Stock\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Stock\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Stock\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Stock\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:29:11.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240722002721_Gerente.cs",
+              "DocumentMoniker": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Infraestructure\\Migrations\\20240722002721_Gerente.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Migrations\\20240722002721_Gerente.cs",
+              "ToolTip": "C:\\Users\\giuliano\\Desktop\\UtnPractica\\TpProgramacion\\Tp\\Infraestructure\\Migrations\\20240722002721_Gerente.cs",
+              "RelativeToolTip": "Infraestructure\\Migrations\\20240722002721_Gerente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:27:21.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
